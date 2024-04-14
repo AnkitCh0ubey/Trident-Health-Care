@@ -7,7 +7,9 @@ Try running some of the following tasks:
 ```shell
 npx hardhat help
 npx hardhat test
-REPORT_=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npm install 
+npx hardhat run scripts/00-deploy.js
+npx hardhat run scripts/01-seeding.js
+npm start
 ```
