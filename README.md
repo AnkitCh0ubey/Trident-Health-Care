@@ -1,8 +1,9 @@
 # Trident HealthCare 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Tri-Data Record System (Prototype). 
+TDRS is a blockchain based data/record storage system that lets you store your data on blockchain itself and not on a regular DB; this makes it less vulnerable to Ransomware attacks and guarantees data availability and security by applying the Blockchain protocols.
 
-Try running some of the following tasks:
+To setup the project locally:
 
 ```shell
 npx hardhat help
@@ -13,3 +14,5 @@ npx hardhat run scripts/00-deploy.js
 npx hardhat run scripts/01-seeding.js
 npm start
 ```
+
+Note: To expose the local host to the internet, try using cloudflare zero trust (tunneling) service.
